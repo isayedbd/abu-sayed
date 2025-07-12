@@ -98,3 +98,128 @@
     justify-content: space-between;
     align-items: center;
     max-width: var(--max-width);
+      margin-inline: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.conference-left {
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 23px;
+}
+.conference-left h2 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.conference-left p {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--black);
+    line-height: 30px;
+    letter-spacing: 0%;
+    opacity: 50%;
+}
+
+.conf-preview-button {
+    background-color: #4E47FF;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    border-radius: 10px;
+    padding-block: 12px;
+    padding-inline: 36px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.conf-preview-button:hover{
+    background-color: #3730a3;
+}
+
+.conference-img {
+    border-radius: 48px;
+    /* overflow: hidden; */
+}
+.counting-section {
+    display: flex;
+    max-width: var(--max-width);
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin-inline: auto;
+    border-radius: 24px;
+    padding-block: 50px;
+    padding-inline: 80px;
+    gap: 40px;
+
+}
+.counting-section h2 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 100%;
+    color: var(--black);
+}
+
+.counting-numbers {
+    display: flex;
+    gap: 158px;
+    font-family: sans-serif;
+}
+
+.active-users-div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.number {
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.plate {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.sessions-div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.rate-div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.rating-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    margin-top: 137px;
+}
+.rating-heading {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--black);
+}
